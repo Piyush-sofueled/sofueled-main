@@ -1,0 +1,61 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Static files
+# public/static/
+# public/*.png
+# public/*.jpg
+# public/*.jpeg
+# public/*.gif
+# public/*.webp
+# public/*.svg
+# public/*.ico
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js cache
+.next/cache/
+
+# Local development environment files
+*.local
+
+# macOS Finder
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# IDE/editor config files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# OS generated files
+*.swp
+*.swo
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Docker files
+docker-compose.override.yml
+
+# Build scripts
+*.tgz
+/build

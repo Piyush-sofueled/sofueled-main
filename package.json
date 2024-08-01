@@ -1,0 +1,50 @@
+{
+  "name": "sofueled",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@formspree/react": "^2.5.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "compression": "^1.7.4",
+    "lodash.debounce": "^4.0.8",
+    "next": "^14.2.5",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-awesome-reveal": "^4.2.12",
+    "react-dom": "^18.3.1",
+    "react-fast-marquee": "^1.6.5",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "npx serve@latest out",
+  "analyze": "ANALYZE=true next build"
+},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^14.2.5",
+    "compression-webpack-plugin": "^11.1.0",
+    "eslint": "^8.42.0",
+    "eslint-config-next": "^14.2.5",
+    "eslint-plugin-react": "^7.35.0",
+    "terser": "^5.31.3",
+    "terser-webpack-plugin": "^5.3.10"
+  }
+}
