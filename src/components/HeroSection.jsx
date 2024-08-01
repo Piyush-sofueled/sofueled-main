@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import { Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import Image from 'next/image';
 import Link from "next/link";
 
@@ -23,7 +23,7 @@ const HeroSection = () => {
             data-w-id="b338aba8-da84-25cb-0733-1138239cfdb5"
             className="w-layout-grid hero-grid"
           >
-            {/* <Fade direction="up" triggerOnce> */}
+            <Fade direction="up" triggerOnce>
               <div
                 id="w-node-b338aba8-da84-25cb-0733-1138239cfdb6-5f88be17"
                 className="hero-content-wrapper"
@@ -42,7 +42,7 @@ const HeroSection = () => {
                   partnerships for fast results, bespoke strategies and
                   industry-defining solutions.
                 </p>
-                {/* <Fade
+                <Fade
                   direction="up"
                   triggerOnce
                   delay={1000}
@@ -52,7 +52,7 @@ const HeroSection = () => {
                     transform: "translate3d(0, 10px, 0)",
                   }}
                   cascade
-                > */}
+                >
                   <Link
                     href="/contact-us"
                     data-w-id="b338aba8-da84-25cb-0733-1138239cfdbf"
@@ -60,15 +60,15 @@ const HeroSection = () => {
                   >
                     Book a free Strategy Call
                   </Link>
-                {/* </Fade> */}
+                </Fade>
                 
               </div>
-            {/* </Fade> */}
+            </Fade>
             <div
               id="w-node-b338aba8-da84-25cb-0733-1138239cfdc5-5f88be17"
               className="hero-image-wrapper"
             >
-              {/* <Fade direction="right" triggerOnce> */}
+              <Fade direction="right" triggerOnce>
               <Image
                   className="hero-image"
                   src="/images/header.webp"
@@ -78,7 +78,7 @@ const HeroSection = () => {
                   priority
                   data-w-id="b338aba8-da84-25cb-0733-1138239cfdc6"
                 />
-              {/* </Fade> */}
+              </Fade>
               <div
                 data-w-id="b338aba8-da84-25cb-0733-1138239cfdc7"
                 className={`small-image ${animationStarted ? "animate" : ""}`}

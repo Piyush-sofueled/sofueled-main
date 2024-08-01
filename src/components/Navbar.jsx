@@ -1,5 +1,5 @@
 import React, { useState} from "react";
-// import { Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import Image from 'next/image';
 import Link from "next/link";
 
@@ -36,7 +36,7 @@ const Navbar = () => {
       role="banner"
       className="navbar w-nav"
     >
-      {/* <Fade delay={100} triggerOnce> */}
+      <Fade delay={100} triggerOnce>
         <div
           //  style={menuOpen ? { position:"relative",zIndex:"1000"} :{}}
           className="primary-container w-container"
@@ -134,7 +134,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      {/* </Fade> */}
+      </Fade>
       <div
         style={menuOpen ? { display: "block", height: "500px" } : {}}
         className={`w-nav-overlay ${menuOpen ? "overlayOpen" : ""}
