@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link rel="icon" href="/images/targetLogo.webp" />
         <link rel="apple-touch-icon" href="/images/targetLogo.webp" />
-        <link rel="preload" as="image" href="/images/header.webp" />
+        {/* <link rel="preload" as="image" href="/images/header.webp" /> */}
           {/* <link rel="preload" href="/fonts/Gordita-Font/Gordita-Regular.otf" as="font" type="font/otf" crossOrigin="anonymous" /> */}
       </Head>
       <Script
